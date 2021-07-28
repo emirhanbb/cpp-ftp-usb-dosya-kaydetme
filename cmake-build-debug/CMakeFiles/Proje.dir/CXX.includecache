@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/pcweb/Desktop/Proje/Calculator.h
+
+C:/Users/pcweb/Desktop/Proje/DbAccess.h
+fstream
+-
+Windows.h
+-
+
+C:/Users/pcweb/Desktop/Proje/main.cpp
+iostream
+-
+DbAccess.h
+C:/Users/pcweb/Desktop/Proje/DbAccess.h
+Calculator.h
+C:/Users/pcweb/Desktop/Proje/Calculator.h
+wininet.h
+-
+stdlib.h
+-
+
