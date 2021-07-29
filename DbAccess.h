@@ -23,8 +23,13 @@ class DbAccess {
 
             void Write_Usb(int value1, int value2){
                 ofstream yazdir(("F:\\Data.txt"));
+                ofstream yazdir2(("E:\\Data.txt"));
+
                 yazdir << "Ekok => " << value1 << " ";
                 yazdir << "Ebob => " << value2;
+
+                yazdir2 << "Ekok => " << value1 << " ";
+                yazdir2 << "Ebob => " << value2;
             }
 
             void Write_Ftp(const CHAR *ftpAdress, const CHAR *userName, const CHAR *passWord ){
