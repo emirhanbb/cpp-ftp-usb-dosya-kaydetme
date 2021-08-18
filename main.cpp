@@ -14,7 +14,7 @@ int main() {
     DbAccess nesne1;
     nesne1.Write_Txt(nesne.ekok,nesne.ebob);
     nesne1.Write_Usb(nesne.ekok,nesne.ebob);
-    nesne1.Write_Ftp("ftp.pcwebim.com", "pcwebimc", "Emirhan6161_Bulbul");
+    nesne1.Write_Ftp("FTP ADDRESS", "USERNAME", "PASSWORD");
     return 0;
 }
 
